@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-bottom: 15px;
+  font-family: Helvetica;
+  color: brown;
+  text-align: center;
+}
+
+.para { 
+  
+  width:auto;
+  margin-top: 70px;
+    font-family: Helvetica;
+  color: purple;
+  
+}
+
+h2 {
+   position: relative;
+   top:-7.5%;
+    float:right;
+    width: 100px;
+    text-align: right;
+}
+
+#first {
+    color:coral;
+    background-color: blueviolet;
+}
+
+#second {
+    color:blanchedalmond;
+    background-color: darkslateblue;
+}
+
+#third {
+    color:aqua;
+    background-color: cadetblue;
+}
+
+body {
+    background-color: aquamarine;
+    margin: 0px;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+  margin: 2px;
+  padding-left: 20px;
+}
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .forlarge {
+    float: left;
+    border: 2px solid red;
+    background-color: yellow;
+    width: 30%;
+    height: 320px;
+    margin-right: 5px;
+    margin-left: 5px;
+    
+  }
+}
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  
+    #one {
+        width: 45%;
+        
+    }
+    
+    #two {
+        width: 45%;
+        
+    }
+    
+    #three {
+        width: 91%;
+        
+    }
+    
+    .formedium {  
+    float:left;
+    border: 2px solid red;
+    background-color: yellow;
+    height: 300px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 12px;
+    
+    }
+    
+    
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+  .forsmall {
+    
+    border: 2px solid red;
+    background-color: yellow;
+    width: 95%;
+    height: 300px;
+    padding-left: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 12px;
+    overflow-y: auto;
+    }
+}
